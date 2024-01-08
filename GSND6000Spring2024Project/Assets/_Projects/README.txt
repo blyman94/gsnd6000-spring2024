@@ -1,0 +1,1 @@
+_Projects contains all assets and game logic for each project completed during the semester. For each new project, add a subdirectory to this folder. Any external packages or assets that may need to be update in the future should be in the "Assets" folder, not in this folder.

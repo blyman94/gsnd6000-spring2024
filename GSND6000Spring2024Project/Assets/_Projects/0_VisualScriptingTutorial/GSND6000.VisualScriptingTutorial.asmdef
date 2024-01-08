@@ -1,0 +1,14 @@
+{
+    "name": "GSND6000.VisualScriptingTutorial",
+    "rootNamespace": "GSND6000.VisualScriptingTutorial",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

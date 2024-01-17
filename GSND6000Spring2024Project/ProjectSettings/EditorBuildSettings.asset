@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Projects/Common/Scenes/MechanicSelection.unity
-    guid: 3c661197684f7c94d9b27b18d662708a
-  - enabled: 1
     path: Assets/_Projects/1_AtomicMechanic/Scenes/AtomicMechanic_Final.unity
     guid: 0c6ff663351e5614ab8f5b18cbfe479d
   m_configObjects: {}

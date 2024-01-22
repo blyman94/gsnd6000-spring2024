@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Dog
+  - Hazard
+  - Anvil
   layers:
   - Default
   - TransparentFX
@@ -41,4 +43,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Anvils
+    uniqueID: 2500599921
+    locked: 0
+  - name: Ground
+    uniqueID: 3558192475
     locked: 0

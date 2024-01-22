@@ -253,6 +253,56 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &88516392 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1555434744476052030, guid: 0cba58841cdb72342977c32447907120, type: 3}
+  m_PrefabInstance: {fileID: 557000582}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &88516393
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88516392}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.25, y: 2.25}
+    newSize: {x: 2.25, y: 2.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.25, y: 2.25}
+  m_EdgeRadius: 0
 --- !u!1 &410776751
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,6 +525,66 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &557000582
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1389119012077493015, guid: 0cba58841cdb72342977c32447907120, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.110865
+      objectReference: {fileID: 0}
+    - target: {fileID: 1389119012077493015, guid: 0cba58841cdb72342977c32447907120, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.0709634
+      objectReference: {fileID: 0}
+    - target: {fileID: 1389119012077493015, guid: 0cba58841cdb72342977c32447907120, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1389119012077493015, guid: 0cba58841cdb72342977c32447907120, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1389119012077493015, guid: 0cba58841cdb72342977c32447907120, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1389119012077493015, guid: 0cba58841cdb72342977c32447907120, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1389119012077493015, guid: 0cba58841cdb72342977c32447907120, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1389119012077493015, guid: 0cba58841cdb72342977c32447907120, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1389119012077493015, guid: 0cba58841cdb72342977c32447907120, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1389119012077493015, guid: 0cba58841cdb72342977c32447907120, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555434744476052030, guid: 0cba58841cdb72342977c32447907120, type: 3}
+      propertyPath: m_Name
+      value: dog
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1555434744476052030, guid: 0cba58841cdb72342977c32447907120, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 88516393}
+  m_SourcePrefab: {fileID: 100100000, guid: 0cba58841cdb72342977c32447907120, type: 3}
 --- !u!1 &701718693
 GameObject:
   m_ObjectHideFlags: 0
@@ -791,6 +901,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1404179806 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8871571948514524062, guid: 5c015047138d234459f4e384f7f90cd3, type: 3}
+  m_PrefabInstance: {fileID: 4742878888516388231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1404179812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404179806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 13d6f610ef7137d498a2dbc49777d173, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: General
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &1710768350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,6 +1182,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8871571948514524062, guid: 5c015047138d234459f4e384f7f90cd3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1404179812}
     - targetCorrespondingSourceObject: {fileID: 1841166634278554993, guid: 5c015047138d234459f4e384f7f90cd3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
@@ -1054,3 +1202,4 @@ SceneRoots:
   - {fileID: 701718695}
   - {fileID: 1032846345}
   - {fileID: 1066031340}
+  - {fileID: 557000582}

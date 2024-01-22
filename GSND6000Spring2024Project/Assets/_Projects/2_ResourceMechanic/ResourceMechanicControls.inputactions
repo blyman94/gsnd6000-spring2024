@@ -1,0 +1,34 @@
+{
+    "name": "ResourceMechanicControls",
+    "maps": [
+        {
+            "name": "General",
+            "id": "7229e8de-3186-426a-8e68-012f1f7453bf",
+            "actions": [
+                {
+                    "name": "GivePets",
+                    "type": "Button",
+                    "id": "06b0a907-7473-4f1d-970d-c141b819f39c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1d47088a-816c-4416-b3f7-9b98f7d03ff4",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GivePets",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

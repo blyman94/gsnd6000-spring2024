@@ -967,8 +967,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6549766471699586385, guid: 5c015047138d234459f4e384f7f90cd3, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549766471699586385, guid: 5c015047138d234459f4e384f7f90cd3, type: 3}
       propertyPath: m_LinearDrag
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6549766471699586385, guid: 5c015047138d234459f4e384f7f90cd3, type: 3}
       propertyPath: m_Constraints
@@ -1733,6 +1737,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3177386402663566772, guid: 318a91ec0c9ac1b498dc4822b0ea0098, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4067625062628233620, guid: 318a91ec0c9ac1b498dc4822b0ea0098, type: 3}
       propertyPath: m_Name
       value: anvil
@@ -1743,19 +1751,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578976666602439089, guid: 318a91ec0c9ac1b498dc4822b0ea0098, type: 3}
       propertyPath: m_Size.x
-      value: 0.35272908
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 5578976666602439089, guid: 318a91ec0c9ac1b498dc4822b0ea0098, type: 3}
       propertyPath: m_Size.y
-      value: 0.3393631
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 5578976666602439089, guid: 318a91ec0c9ac1b498dc4822b0ea0098, type: 3}
       propertyPath: m_Offset.x
-      value: 0.033682883
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5578976666602439089, guid: 318a91ec0c9ac1b498dc4822b0ea0098, type: 3}
       propertyPath: m_Offset.y
-      value: 0.11356252
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578976666602439089, guid: 318a91ec0c9ac1b498dc4822b0ea0098, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -28,6 +28,12 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "NoInput",
+            "id": "8f18c2bd-ce10-47c4-9b07-3bf025986ef5",
+            "actions": [],
+            "bindings": []
         }
     ],
     "controlSchemes": []

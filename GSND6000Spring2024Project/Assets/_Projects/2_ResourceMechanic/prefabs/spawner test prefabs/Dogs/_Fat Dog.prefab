@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4205097003645767624
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -2167209259177281519, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"HeartParticleSystemObject","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"NoisesHappy","value":{"$content":[{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"},{"$content":5,"$type":"UnityEngine.Object"},{"$content":6,"$type":"UnityEngine.Object"},{"$content":7,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
+        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"NoisesSad","value":{"$content":[{"$content":8,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
+        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AudioSource","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ScratchNoises","value":{"$content":[{"$content":10,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
+        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: -2167209259177281519, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -2167209259177281519, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 3b12a0ff12f09c247949c898df12e915, type: 3}
+    - target: {fileID: -2167209259177281519, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 545d84cbfcbfb2f40ada697f6433f554, type: 3}
+    - target: {fileID: -2167209259177281519, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: _data._objectReferences.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 43dad408820acea4ba76c1186cfe3b21, type: 3}
+    - target: {fileID: -2167209259177281519, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: _data._objectReferences.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 36b13665c6e4ab94eb5a717af34d6682, type: 3}
+    - target: {fileID: -2167209259177281519, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: _data._objectReferences.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 48c6eff403b54564883a922c6af35f65, type: 3}
+    - target: {fileID: -2167209259177281519, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: _data._objectReferences.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: f3137796573014d4bae096bd0c93d688, type: 3}
+    - target: {fileID: -2167209259177281519, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: _data._objectReferences.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: 342de5bd90a64f94f956e7b4d3793950, type: 3}
+    - target: {fileID: -2167209259177281519, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: _data._objectReferences.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8023de08e609fb94dbcf3b2ecfe84711, type: 3}
+    - target: {fileID: -2167209259177281519, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: _data._objectReferences.Array.data[9]
+      value: 
+      objectReference: {fileID: 71344616227068992}
+    - target: {fileID: -2167209259177281519, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: _data._objectReferences.Array.data[10]
+      value: 
+      objectReference: {fileID: 8300000, guid: 5efb8754a7c4b4142b6c29d47a4f7c98, type: 3}
+    - target: {fileID: 564313534630425380, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: m_Name
+      value: _Fat Dog
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348247047700970275, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348247047700970275, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348247047700970275, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348247047700970275, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348247047700970275, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348247047700970275, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348247047700970275, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348247047700970275, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348247047700970275, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348247047700970275, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4643196593714472905, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0edbb6def611775418152c05ca6fc6aa, type: 3}
+    - target: {fileID: 4643196593714472905, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+--- !u!82 &71344616227068992 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4226336867198718856, guid: 740085a9485e72f45882a3002db47bdb, type: 3}
+  m_PrefabInstance: {fileID: 4205097003645767624}
+  m_PrefabAsset: {fileID: 0}

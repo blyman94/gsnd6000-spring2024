@@ -1071,8 +1071,8 @@ MonoBehaviour:
   m_text: Use A and D to move\nGive Pets to Make Friends\nDon't get anvil'd\n(Friends
     are immune to anvils)
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 64bbc26ab10066f4a8ba0571201b441a, type: 2}
+  m_sharedMaterial: {fileID: 760349296118152111, guid: 64bbc26ab10066f4a8ba0571201b441a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

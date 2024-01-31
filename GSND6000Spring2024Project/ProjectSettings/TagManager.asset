@@ -8,6 +8,8 @@ TagManager:
   - Hazard
   - Anvil
   - Enemy
+  - Energy Button
+  - Health Button
   layers:
   - Default
   - TransparentFX

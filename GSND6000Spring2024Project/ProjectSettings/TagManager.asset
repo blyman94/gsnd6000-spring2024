@@ -7,6 +7,9 @@ TagManager:
   - Dog
   - Hazard
   - Anvil
+  - Enemy
+  - Energy Button
+  - Health Button
   layers:
   - Default
   - TransparentFX
@@ -15,7 +18,7 @@ TagManager:
   - Water
   - UI
   - Hidden
-  - 
+  - Enemy
   - 
   - 
   - 

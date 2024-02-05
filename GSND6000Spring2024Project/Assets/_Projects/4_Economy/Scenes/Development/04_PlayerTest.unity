@@ -294,7 +294,7 @@ Transform:
   m_GameObject: {fileID: 294665330}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.46, y: -0.2, z: 0}
+  m_LocalPosition: {x: -4.46, y: 2.83, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -416,6 +416,12 @@ PrefabInstance:
     - target: {fileID: 4592658342404613293, guid: 7c09f721863f25f4cbda99ef282f3dd6, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8166334812086715189, guid: 7c09f721863f25f4cbda99ef282f3dd6, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"xMax","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"xMin","value":{"$content":-3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 8861328656304648957, guid: 7c09f721863f25f4cbda99ef282f3dd6, type: 3}
       propertyPath: m_LocalPosition.x

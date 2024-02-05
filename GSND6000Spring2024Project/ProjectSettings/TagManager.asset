@@ -11,6 +11,8 @@ TagManager:
   - Energy Button
   - Health Button
   - EnemyBasic
+  - BasicProjectile
+  - PowerProjectile
   layers:
   - Default
   - TransparentFX

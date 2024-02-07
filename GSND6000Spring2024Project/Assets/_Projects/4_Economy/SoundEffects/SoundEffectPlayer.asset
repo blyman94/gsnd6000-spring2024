@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: SoundEffectPlayer
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":178.0,"y":-41.0},"zoom":1.0,"elements":[{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"OnPlaySoundEffect","$type":"System.String"}},"position":{"x":-312.0,"y":-168.0},"guid":"3fb33bd8-398f-4980-bfb3-a71a397cd85f","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"9"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"_randomizeClip":{"$content":false,"$type":"System.Boolean"},"_randomizePitch":{"$content":false,"$type":"System.Boolean"},"_pitchRange":{"x":0.95,"y":1.05,"$type":"UnityEngine.Vector2"}},"position":{"x":100.0,"y":-129.0},"guid":"2702d88d-8792-4c81-a7fe-ac1ce9390430","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"11"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"AudioSource","$type":"System.String"},"object":null},"position":{"x":-254.0,"y":-39.0},"guid":"5ea0cd58-eb67-48f2-a470-6f6440150d17","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"_controlInput","guid":"c264dd4d-1a6d-4d08-939b-83c4cfcbfe66","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"_audioSource","guid":"7868d92d-47ce-4f6d-9aca-afbefb124401","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"argument_0","destinationUnit":{"$ref":"11"},"destinationKey":"_audioClips","guid":"b0f22a39-803e-42f0-88e8-b051dc1f3460","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 913f2b3056b6f1c429b8eaa420d659f1, type: 2}

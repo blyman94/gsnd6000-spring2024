@@ -1,0 +1,87 @@
+{
+    "name": "Project 4 Controls",
+    "maps": [
+        {
+            "name": "General",
+            "id": "5b93c2f8-f169-46a2-b9fd-9e1d6bc6233b",
+            "actions": [
+                {
+                    "name": "Fire basic projectile",
+                    "type": "Button",
+                    "id": "daeca409-e4ff-4c65-adc8-ba75e14360b7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Fire power projectile",
+                    "type": "Button",
+                    "id": "c272c539-893c-4d6d-83b8-333406b93778",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "28f989f0-d279-4156-9953-2bc583067246",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire basic projectile",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2ffe1683-3259-458f-a8d1-4bd582bc15a8",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire basic projectile",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a26dbc90-b5e1-418f-8914-c29a8d555590",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire basic projectile",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "99625515-0376-4129-92a9-642e1a2624b1",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire power projectile",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6edca230-1a3f-4c14-a145-920bef511ddd",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire power projectile",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

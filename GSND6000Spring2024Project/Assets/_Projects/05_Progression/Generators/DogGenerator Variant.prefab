@@ -10,7 +10,9 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 192235038383380730, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_text
-      value: Click the stone to buy a dog
+      value: 'Click to pet dog
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 192235038383380730, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_fontSize
@@ -22,13 +24,39 @@ PrefabInstance:
       objectReference: {fileID: 160671752, guid: fd8fbf90d6eeaf2459d55af89844970b, type: 3}
     - target: {fileID: 498983989173514032, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"GoldCounterPrefab","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"GoldCounterPrefab","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"OnGenerateParticleEffectPrefab","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TimeBetweenClicks","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AutoGoldRequirement","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AutoGoldRequirement","value":{"$content":1000,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GoldPerClick","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"UnlockText","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DrillSprite","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Sprite,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AutomateSpriteRenderer","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Image,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MoneyText","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ClickAudio","value":{"$content":[{"$content":5,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
+        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HeartParticleEffect","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
+    - target: {fileID: 498983989173514032, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 498983989173514032, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: ca4a8cdec9ebf564da90de29fb7a0e7b, type: 3}
+    - target: {fileID: 498983989173514032, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: _data._objectReferences.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: e4274e74f21c4114da1a0f681e7006ea, type: 3}
+    - target: {fileID: 498983989173514032, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: _data._objectReferences.Array.data[6]
+      value: 
+      objectReference: {fileID: 3027171623792727573, guid: 25c9f13c4f4c7754b8a7bdc9387f69cb, type: 3}
+    - target: {fileID: 3933954672144787010, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 38e14b184d8ab9940a3b89410ae0b2a4, type: 2}
     - target: {fileID: 4208378885889444957, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -91,11 +119,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4208378885889444957, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 680.4501
       objectReference: {fileID: 0}
     - target: {fileID: 4208378885889444957, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -8.636
       objectReference: {fileID: 0}
     - target: {fileID: 4208378885889444957, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -109,9 +137,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6077387034331470599, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 7840252416875265781, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_text
+      value: 'Click to unlock autopetter -
+
+        1000 Gold
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 8904039919968448809, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_Name
       value: DogGenerator Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904039919968448809, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

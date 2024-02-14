@@ -229,22 +229,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &28040169 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6839727153951100553, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
-  m_PrefabInstance: {fileID: 1693349064}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &37538179 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 397676875769449723, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
-  m_PrefabInstance: {fileID: 509104405}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &236577634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -253,79 +237,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4408428}
     m_Modifications:
-    - target: {fileID: 1982656206219166145, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 96
-      objectReference: {fileID: 0}
-    - target: {fileID: 2529567335664182323, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-      propertyPath: m_text
-      value: 'Click to unlock autopetter -
-
-        1000 Gold
-
-'
-      objectReference: {fileID: 0}
     - target: {fileID: 3766549978664889327, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
       propertyPath: m_Name
       value: DogGenerator Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 3766549978664889327, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5276045394194068982, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"GoldCounterPrefab","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"OnGenerateParticleEffectPrefab","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TimeBetweenClicks","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AutoGoldRequirement","value":{"$content":1000,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GoldPerClick","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"UnlockText","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DrillSprite","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Sprite,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AutomateSpriteRenderer","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Image,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MoneyText","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ClickAudio","value":{"$content":[{"$content":5,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
-        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HeartParticleEffect","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5276045394194068982, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5276045394194068982, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 1803365626}
-    - target: {fileID: 5276045394194068982, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-      propertyPath: _data._objectReferences.Array.data[1]
-      value: 
-      objectReference: {fileID: 658003698}
-    - target: {fileID: 5276045394194068982, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-      propertyPath: _data._objectReferences.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300000, guid: ca4a8cdec9ebf564da90de29fb7a0e7b, type: 3}
-    - target: {fileID: 5276045394194068982, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-      propertyPath: _data._objectReferences.Array.data[3]
-      value: 
-      objectReference: {fileID: 2014563611}
-    - target: {fileID: 5276045394194068982, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-      propertyPath: _data._objectReferences.Array.data[4]
-      value: 
-      objectReference: {fileID: 1296138729}
-    - target: {fileID: 5276045394194068982, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-      propertyPath: _data._objectReferences.Array.data[5]
-      value: 
-      objectReference: {fileID: 8300000, guid: e4274e74f21c4114da1a0f681e7006ea, type: 3}
-    - target: {fileID: 5276045394194068982, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-      propertyPath: _data._objectReferences.Array.data[6]
-      value: 
-      objectReference: {fileID: 3027171623792727573, guid: 25c9f13c4f4c7754b8a7bdc9387f69cb, type: 3}
-    - target: {fileID: 5583914477720896060, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-      propertyPath: m_text
-      value: 'Click to pet dog
-
-'
-      objectReference: {fileID: 0}
     - target: {fileID: 8481353776945387163, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -357,18 +276,6 @@ PrefabInstance:
     - target: {fileID: 8481353776945387163, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
       propertyPath: m_SizeDelta.y
       value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 8481353776945387163, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.3454267
-      objectReference: {fileID: 0}
-    - target: {fileID: 8481353776945387163, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.3454267
-      objectReference: {fileID: 0}
-    - target: {fileID: 8481353776945387163, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.3454267
       objectReference: {fileID: 0}
     - target: {fileID: 8481353776945387163, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -418,10 +325,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8740588507663383684, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-      propertyPath: _data._objectReferences.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: 38e14b184d8ab9940a3b89410ae0b2a4, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -436,11 +339,6 @@ RectTransform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3766549978664889327, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
   m_PrefabInstance: {fileID: 236577634}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &324644896 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9039205582387553934, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
-  m_PrefabInstance: {fileID: 1018526244}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &332919065
 GameObject:
@@ -605,11 +503,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &486874199 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9172257293847562427, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
-  m_PrefabInstance: {fileID: 1693349064}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &509104405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -621,18 +514,6 @@ PrefabInstance:
     - target: {fileID: 244568453762898780, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
       propertyPath: m_Name
       value: DiamondGenerator Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 244568453762898780, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1457843152574436480, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
-      propertyPath: m_text
-      value: 'Click to unlock drill -
-
-        400 Gold
-
-'
       objectReference: {fileID: 0}
     - target: {fileID: 4796978860042348072, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
       propertyPath: m_Pivot.x
@@ -665,18 +546,6 @@ PrefabInstance:
     - target: {fileID: 4796978860042348072, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
       propertyPath: m_SizeDelta.y
       value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 4796978860042348072, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.3454267
-      objectReference: {fileID: 0}
-    - target: {fileID: 4796978860042348072, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.3454267
-      objectReference: {fileID: 0}
-    - target: {fileID: 4796978860042348072, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.3454267
       objectReference: {fileID: 0}
     - target: {fileID: 4796978860042348072, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
       propertyPath: m_LocalPosition.x
@@ -727,47 +596,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9086539861080098117, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"GoldCounterPrefab","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"OnGenerateParticleEffectPrefab","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TimeBetweenClicks","value":{"$content":2.121,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AutoGoldRequirement","value":{"$content":400,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GoldPerClick","value":{"$content":25,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"UnlockText","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DrillSprite","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Sprite,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AutomateSpriteRenderer","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Image,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MoneyText","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ClickAudio","value":{"$content":[{"$content":5,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
-        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 9086539861080098117, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 9086539861080098117, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 1803365626}
-    - target: {fileID: 9086539861080098117, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
-      propertyPath: _data._objectReferences.Array.data[1]
-      value: 
-      objectReference: {fileID: 623780965}
-    - target: {fileID: 9086539861080098117, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
-      propertyPath: _data._objectReferences.Array.data[2]
-      value: 
-      objectReference: {fileID: 1711646606, guid: fd8fbf90d6eeaf2459d55af89844970b, type: 3}
-    - target: {fileID: 9086539861080098117, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
-      propertyPath: _data._objectReferences.Array.data[3]
-      value: 
-      objectReference: {fileID: 1135822552}
-    - target: {fileID: 9086539861080098117, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
-      propertyPath: _data._objectReferences.Array.data[4]
-      value: 
-      objectReference: {fileID: 37538179}
-    - target: {fileID: 9086539861080098117, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
-      propertyPath: _data._objectReferences.Array.data[5]
-      value: 
-      objectReference: {fileID: 8300000, guid: bbcaf2d990f5c014c999bd50e2577ee3, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -782,16 +613,6 @@ RectTransform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 244568453762898780, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
   m_PrefabInstance: {fileID: 509104405}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &623780965 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8461676866817247274, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
-  m_PrefabInstance: {fileID: 509104405}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &658003698 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4777319534494677145, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-  m_PrefabInstance: {fileID: 236577634}
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &685381342 stripped
 RectTransform:
@@ -838,39 +659,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 4408428}
     m_Modifications:
     - target: {fileID: 498983989173514032, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"GoldCounterPrefab","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"OnGenerateParticleEffectPrefab","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TimeBetweenClicks","value":{"$content":0.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AutoGoldRequirement","value":{"$content":50,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GoldPerClick","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"UnlockText","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DrillSprite","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Sprite,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AutomateSpriteRenderer","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Image,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MoneyText","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ClickAudio","value":{"$content":[{"$content":5,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
-        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 498983989173514032, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 498983989173514032, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 1803365626}
-    - target: {fileID: 498983989173514032, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[4]
-      value: 
-      objectReference: {fileID: 324644896}
-    - target: {fileID: 498983989173514032, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[5]
-      value: 
-      objectReference: {fileID: 8300000, guid: 3c89eb5b2e085404a8aea469c6dbec2b, type: 3}
-    - target: {fileID: 498983989173514032, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[6]
-      value: 
-      objectReference: {fileID: 8300000, guid: ebc2aabbbea6d0a418802576dee62ef3, type: 3}
     - target: {fileID: 4208378885889444957, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -950,14 +741,6 @@ PrefabInstance:
     - target: {fileID: 4208378885889444957, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7840252416875265781, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
-      propertyPath: m_text
-      value: 'Click to unlock drill -
-
-        50 Gold
-
-'
       objectReference: {fileID: 0}
     - target: {fileID: 8904039919968448809, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_Name
@@ -1065,22 +848,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1135822552 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2604529672834009801, guid: b4fb59df4c8d8bd4697aa08a6c8ee005, type: 3}
-  m_PrefabInstance: {fileID: 509104405}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1296138729 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3649408334890449992, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-  m_PrefabInstance: {fileID: 236577634}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1326698762
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1132,22 +899,6 @@ PrefabInstance:
     - target: {fileID: 3179540539239026379, guid: bdc4a330036d3534cbb16585c62623d9, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3461808959112838580, guid: bdc4a330036d3534cbb16585c62623d9, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4126673732302061213, guid: bdc4a330036d3534cbb16585c62623d9, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"GoldCounter","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GoldGeneratorPrefab","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DiamondGeneratorPrefab","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Dog","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4126673732302061213, guid: bdc4a330036d3534cbb16585c62623d9, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4126673732302061213, guid: bdc4a330036d3534cbb16585c62623d9, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
@@ -1234,11 +985,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1605216387 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1126841281082641514, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
-  m_PrefabInstance: {fileID: 1693349064}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1643079148
 GameObject:
   m_ObjectHideFlags: 0
@@ -1279,47 +1025,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 4408428}
     m_Modifications:
     - target: {fileID: 348868133169021189, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"GoldCounterPrefab","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"OnGenerateParticleEffectPrefab","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TimeBetweenClicks","value":{"$content":1.3105,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AutoGoldRequirement","value":{"$content":150,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GoldPerClick","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"UnlockText","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DrillSprite","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Sprite,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AutomateSpriteRenderer","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Image,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MoneyText","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ClickAudio","value":{"$content":[{"$content":5,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
-        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 348868133169021189, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 348868133169021189, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 1803365626}
-    - target: {fileID: 348868133169021189, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
-      propertyPath: _data._objectReferences.Array.data[1]
-      value: 
-      objectReference: {fileID: 1605216387}
-    - target: {fileID: 348868133169021189, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
-      propertyPath: _data._objectReferences.Array.data[2]
-      value: 
-      objectReference: {fileID: 1711646606, guid: fd8fbf90d6eeaf2459d55af89844970b, type: 3}
-    - target: {fileID: 348868133169021189, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
-      propertyPath: _data._objectReferences.Array.data[3]
-      value: 
-      objectReference: {fileID: 28040169}
-    - target: {fileID: 348868133169021189, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
-      propertyPath: _data._objectReferences.Array.data[4]
-      value: 
-      objectReference: {fileID: 486874199}
-    - target: {fileID: 348868133169021189, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
-      propertyPath: _data._objectReferences.Array.data[5]
-      value: 
-      objectReference: {fileID: 8300000, guid: 442e85ac9633d7048a80171726ee8d90, type: 3}
     - target: {fileID: 4061394399249359464, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1351,18 +1059,6 @@ PrefabInstance:
     - target: {fileID: 4061394399249359464, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
       propertyPath: m_SizeDelta.y
       value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061394399249359464, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.3454267
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061394399249359464, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.3454267
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061394399249359464, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.3454267
       objectReference: {fileID: 0}
     - target: {fileID: 4061394399249359464, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1412,21 +1108,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7995577037400723648, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
-      propertyPath: m_text
-      value: 'Click to unlock drill -
-
-        150 Gold
-
-'
-      objectReference: {fileID: 0}
     - target: {fileID: 8766911833520529180, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
       propertyPath: m_Name
       value: GoldGenerator Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 8766911833520529180, guid: 7c839bee204046246a8734b2c0f7dd52, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1488,18 +1172,6 @@ PrefabInstance:
       value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 1041702929101356467, guid: cba0f3b1260c24c4396dff3a98af353d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.105571
-      objectReference: {fileID: 0}
-    - target: {fileID: 1041702929101356467, guid: cba0f3b1260c24c4396dff3a98af353d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.105571
-      objectReference: {fileID: 0}
-    - target: {fileID: 1041702929101356467, guid: cba0f3b1260c24c4396dff3a98af353d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.105571
-      objectReference: {fileID: 0}
-    - target: {fileID: 1041702929101356467, guid: cba0f3b1260c24c4396dff3a98af353d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1545,54 +1217,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1041702929101356467, guid: cba0f3b1260c24c4396dff3a98af353d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3061681915292120349, guid: cba0f3b1260c24c4396dff3a98af353d, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3061681915292120349, guid: cba0f3b1260c24c4396dff3a98af353d, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3061681915292120349, guid: cba0f3b1260c24c4396dff3a98af353d, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3061681915292120349, guid: cba0f3b1260c24c4396dff3a98af353d, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4408308258509205562, guid: cba0f3b1260c24c4396dff3a98af353d, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4408308258509205562, guid: cba0f3b1260c24c4396dff3a98af353d, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4408308258509205562, guid: cba0f3b1260c24c4396dff3a98af353d, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4408308258509205562, guid: cba0f3b1260c24c4396dff3a98af353d, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7088897795405299774, guid: cba0f3b1260c24c4396dff3a98af353d, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7088897795405299774, guid: cba0f3b1260c24c4396dff3a98af353d, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7088897795405299774, guid: cba0f3b1260c24c4396dff3a98af353d, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7088897795405299774, guid: cba0f3b1260c24c4396dff3a98af353d, type: 3}
-      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1683,17 +1307,6 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
---- !u!114 &2014563611 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1370428515205446266, guid: 7b0df4b07877abf4b8fca8c3bc4d43f6, type: 3}
-  m_PrefabInstance: {fileID: 236577634}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

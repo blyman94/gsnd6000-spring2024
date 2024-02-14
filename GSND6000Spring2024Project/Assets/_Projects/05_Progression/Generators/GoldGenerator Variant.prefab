@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 192235038383380730, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_fontSize
-      value: 20.3
+      value: 20.8
       objectReference: {fileID: 0}
     - target: {fileID: 271376741949206317, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_Sprite
@@ -31,6 +31,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 498983989173514032, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: _data._objectReferences.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 662510279836722805, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 662510279836722805, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_Color.g
+      value: 0.25704
+      objectReference: {fileID: 0}
+    - target: {fileID: 662510279836722805, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_Color.r
+      value: 0.306
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042739597663489325, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042739597663489325, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4208378885889444957, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
@@ -112,6 +132,18 @@ PrefabInstance:
     - target: {fileID: 4208378885889444957, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4912706739557600077, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4912706739557600077, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_Color.g
+      value: 0.56257755
+      objectReference: {fileID: 0}
+    - target: {fileID: 4912706739557600077, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_Color.r
+      value: 0.677
       objectReference: {fileID: 0}
     - target: {fileID: 6077387034331470599, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_SizeDelta.x

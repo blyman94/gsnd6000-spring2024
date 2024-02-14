@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 192235038383380730, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_fontSize
-      value: 18.35
+      value: 18.85
       objectReference: {fileID: 0}
     - target: {fileID: 271376741949206317, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_Sprite
@@ -28,6 +28,30 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AutoGoldRequirement","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GoldPerClick","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 498983989173514032, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 662510279836722805, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_Color.b
+      value: 0.445283
+      objectReference: {fileID: 0}
+    - target: {fileID: 662510279836722805, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_Color.g
+      value: 0.28592706
+      objectReference: {fileID: 0}
+    - target: {fileID: 662510279836722805, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_Color.r
+      value: 0.08737629
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042739597663489325, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042739597663489325, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4208378885889444957, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_Pivot.x
@@ -108,6 +132,18 @@ PrefabInstance:
     - target: {fileID: 4208378885889444957, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4912706739557600077, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4912706739557600077, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8993141
+      objectReference: {fileID: 0}
+    - target: {fileID: 4912706739557600077, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
+      propertyPath: m_Color.r
+      value: 0.445
       objectReference: {fileID: 0}
     - target: {fileID: 8904039919968448809, guid: a4d8111ba3d43544bb598aae326d937f, type: 3}
       propertyPath: m_Name

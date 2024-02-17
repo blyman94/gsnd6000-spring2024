@@ -14,7 +14,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Projects/2_ResourceMechanic/Scenes/ResourceMechanic_Final.unity
     guid: 352a7f92da82b154ca113008f4c05d65
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Projects/4_Economy/Scenes/04_EconomyFinal.unity
     guid: f649d845c44c25941b77a19df10f3553
+  - enabled: 1
+    path: Assets/_Projects/05_Progression/Scenes/05_ProgressionFinal.unity
+    guid: 6c02cbf0d07a90749b841dbb48b6856f
   m_configObjects: {}

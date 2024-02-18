@@ -13,6 +13,7 @@ TagManager:
   - EnemyBasic
   - BasicProjectile
   - PowerProjectile
+  - Projectile
   layers:
   - Default
   - TransparentFX

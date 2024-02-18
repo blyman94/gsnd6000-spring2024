@@ -47,10 +47,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"TimeBetweenSpawns","value":{"$content":3.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EnemyPrefabs","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EnemyPrefabs","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
       Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 8313584041129506726, guid: c191ea9ad0f33a54090f540679540f81, type: 3}
+    - {fileID: 1019399062676496645, guid: 046d42eb09c8a3d4589547cd2508c079, type: 3}
+    - {fileID: 2737212979975243533, guid: 599de3696492259408d56e8533542814, type: 3}
+    - {fileID: 566584885474476262, guid: 6df0181713d88e04ba06a7437917c6fd, type: 3}
 --- !u!114 &9074685675684938201
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -20,7 +20,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Projects/05_Progression/Scenes/05_ProgressionFinal.unity
     guid: 6c02cbf0d07a90749b841dbb48b6856f
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Projects/06_UnbalancedMechanic/Scenes/06_UnbalancedFinal.unity
     guid: e575e46ae24a7bd4ca48582d3064dbe7
+  - enabled: 1
+    path: Assets/_Projects/07_CharacterMechanic/Scenes/CharacterMechanic_Final.unity
+    guid: defa56180b1ab5d419d574ea31feb623
   m_configObjects: {}

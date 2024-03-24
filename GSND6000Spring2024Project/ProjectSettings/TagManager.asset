@@ -14,6 +14,7 @@ TagManager:
   - BasicProjectile
   - PowerProjectile
   - Projectile
+  - Friendly
   layers:
   - Default
   - TransparentFX

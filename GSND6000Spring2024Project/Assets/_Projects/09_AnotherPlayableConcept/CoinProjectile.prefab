@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 2657781511824292295}
   - component: {fileID: 230940579275155442}
   - component: {fileID: 3737487670058442631}
-  - component: {fileID: 6821448362158476296}
-  - component: {fileID: 7123065163967304295}
-  m_Layer: 0
+  - component: {fileID: -3376630461897728801}
+  - component: {fileID: -8324490811217486125}
+  m_Layer: 8
   m_Name: CoinProjectile
   m_TagString: Projectile
   m_Icon: {fileID: 0}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -200
   m_Sprite: {fileID: -1694597975, guid: dcb9621295e175d49842a6abcf170e4c, type: 3}
   m_Color: {r: 1, g: 0.7155316, b: 0, a: 1}
   m_FlipX: 0
@@ -103,7 +103,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 0.25
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -160,7 +160,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &6821448362158476296
+--- !u!114 &-3376630461897728801
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,7 +175,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!114 &7123065163967304295
+--- !u!114 &-8324490811217486125
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccb9af15d6798014badac63162209fb6, type: 3}
   m_Name: GameParameters
   m_EditorClassIdentifier: 
-  _playerJumpVelocityBase: 10
+  _playerJumpVelocityBase: 5
   _playerMoveSpeedLand: 3
   _playerMoveSpeedShip: 3
   _doubloonProjectileSpeed: 15

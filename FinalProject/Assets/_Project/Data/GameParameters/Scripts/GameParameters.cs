@@ -31,6 +31,23 @@ public class GameParameters : ScriptableObject
     private float _doubloonProjectileSpeed = 15.0f;
     #endregion
 
+    [Header("Ship Movement")]
+
+    [SerializeField]
+    [Tooltip("How much force is applied to the ship if the player " +
+        "triggers the bottom mast coin slot?")]
+    private float _shipAppliedForceLow = 2.5f;
+
+    [SerializeField]
+    [Tooltip("How much force is applied to the ship if the player " +
+        "triggers the middle mast coin slot?")]
+    private float _shipAppliedForceMed = 5.0f;
+
+    [SerializeField]
+    [Tooltip("How much force is applied to the ship if the player " +
+        "triggers the top mast coin slot?")]
+    private float _shipAppliedForceHigh = 10.0f;
+
     #region Getters
     public float DoubloonProjectileSpeed
     {
@@ -58,6 +75,27 @@ public class GameParameters : ScriptableObject
         get
         {
             return _playerMoveSpeedShip;
+        }
+    }
+    public float ShipAppliedForceLow
+    {
+        get
+        {
+            return _shipAppliedForceLow;
+        }
+    }
+    public float ShipAppliedForceMed
+    {
+        get
+        {
+            return _shipAppliedForceMed;
+        }
+    }
+    public float ShipAppliedForceHigh
+    {
+        get
+        {
+            return _shipAppliedForceHigh;
         }
     }
     #endregion

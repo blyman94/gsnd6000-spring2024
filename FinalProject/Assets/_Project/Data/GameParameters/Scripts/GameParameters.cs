@@ -23,9 +23,22 @@ public class GameParameters : ScriptableObject
     [SerializeField]
     [Tooltip("How fast can the player move aboard a ship?")]
     private float _playerMoveSpeedShip = 3.0f;
+
+    [Header("Combat")]
+
+    [SerializeField]
+    [Tooltip("How fast do doubloon projectile's move?")]
+    private float _doubloonProjectileSpeed = 15.0f;
     #endregion
 
     #region Getters
+    public float DoubloonProjectileSpeed
+    {
+        get
+        {
+            return _doubloonProjectileSpeed;
+        }
+    }
     public float PlayerJumpVelocityBase
     {
         get

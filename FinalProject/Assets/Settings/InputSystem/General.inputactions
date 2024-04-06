@@ -6,13 +6,22 @@
             "id": "0792866a-ac8c-4efc-80d3-b89320c97dd1",
             "actions": [
                 {
-                    "name": "Movement",
+                    "name": "MovementLand",
                     "type": "Value",
                     "id": "5a8084a5-77d4-4ad3-803b-02028413310c",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "c9e10185-85af-4f02-a9e2-500c6b4361a1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -23,7 +32,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Movement",
+                    "action": "MovementLand",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -34,7 +43,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Movement",
+                    "action": "MovementLand",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -45,7 +54,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Movement",
+                    "action": "MovementLand",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -56,7 +65,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Movement",
+                    "action": "MovementLand",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -67,7 +76,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Movement",
+                    "action": "MovementLand",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -78,7 +87,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Movement",
+                    "action": "MovementLand",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -89,7 +98,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Movement",
+                    "action": "MovementLand",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -100,7 +109,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Movement",
+                    "action": "MovementLand",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -111,7 +120,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Movement",
+                    "action": "MovementLand",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -122,9 +131,20 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Movement",
+                    "action": "MovementLand",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "ff98c745-31eb-466c-add7-4d5df5ee4646",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -133,7 +153,7 @@
             "id": "0ba2fdc4-2024-45ae-b958-2bf283ebfbfe",
             "actions": [
                 {
-                    "name": "Movement",
+                    "name": "MovementShip",
                     "type": "Value",
                     "id": "8931050c-21d8-4b9f-9445-36c42523300d",
                     "expectedControlType": "Axis",
@@ -149,6 +169,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "c7ae993b-c62e-4db8-8f2b-ddd2c65305d7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -159,7 +188,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Movement",
+                    "action": "MovementShip",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -170,7 +199,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Movement",
+                    "action": "MovementShip",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -181,7 +210,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Movement",
+                    "action": "MovementShip",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -192,7 +221,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Movement",
+                    "action": "MovementShip",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -203,7 +232,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Movement",
+                    "action": "MovementShip",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -214,7 +243,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Movement",
+                    "action": "MovementShip",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -226,6 +255,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f1402ff0-0305-4a79-85f5-5af4198bd521",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

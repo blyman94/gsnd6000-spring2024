@@ -15,3 +15,4 @@ MonoBehaviour:
   _playerJumpVelocityBase: 10
   _playerMoveSpeedLand: 3
   _playerMoveSpeedShip: 3
+  _doubloonProjectileSpeed: 15

@@ -15,7 +15,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Shoot",
+                    "name": "ShootLand",
                     "type": "Button",
                     "id": "c9e10185-85af-4f02-a9e2-500c6b4361a1",
                     "expectedControlType": "Button",
@@ -142,7 +142,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Shoot",
+                    "action": "ShootLand",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -171,7 +171,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Shoot",
+                    "name": "ShootShip",
                     "type": "Button",
                     "id": "c7ae993b-c62e-4db8-8f2b-ddd2c65305d7",
                     "expectedControlType": "Button",
@@ -265,7 +265,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Shoot",
+                    "action": "ShootShip",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

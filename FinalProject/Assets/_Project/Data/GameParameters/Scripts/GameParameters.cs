@@ -14,7 +14,7 @@ public class GameParameters : ScriptableObject
 
     [SerializeField]
     [Tooltip("What is the player's base initial jump velocity?")]
-    private float _playerJumpVelocityBase = 10.0f;
+    private float _playerJumpVelocityBase = 3.0f;
 
     [SerializeField]
     [Tooltip("How fast can the player move on land?")]
@@ -29,7 +29,6 @@ public class GameParameters : ScriptableObject
     [SerializeField]
     [Tooltip("How fast do doubloon projectile's move?")]
     private float _doubloonProjectileSpeed = 15.0f;
-    #endregion
 
     [Header("Ship Movement")]
 
@@ -48,12 +47,54 @@ public class GameParameters : ScriptableObject
         "triggers the top mast coin slot?")]
     private float _shipAppliedForceHigh = 10.0f;
 
+    [Header("Health & Scurvy")]
+    [SerializeField]
+    [Tooltip("What is the player's initial jump velocity at max Scurvy?")]
+    private float _scurvyMaxJumpVelocity = 12.0f;
+
+    [SerializeField]
+    [Tooltip("What % Scurvy does the player start at?")]
+    [Range(0.0f, 100.0f)]
+    private float _initialScurvyLevel = 25.0f;
+
+    [SerializeField]
+    [Tooltip("What % Scurvy does the player gain per second?")]
+    [Range(0.0f, 100.0f)]
+    private float _passiveScurvyGain = 1.0f;
+
+    [SerializeField]
+    [Tooltip("What % Scurvy is removed by an orange?")]
+    [Range(0.0f, 100.0f)]
+    private float _orangeScurvyReduction = 10.0f;
+    #endregion
+
     #region Getters
     public float DoubloonProjectileSpeed
     {
         get
         {
             return _doubloonProjectileSpeed;
+        }
+    }
+    public float InitialScurvyLevel
+    {
+        get
+        {
+            return _initialScurvyLevel;
+        }
+    }
+    public float OrangeScurvyReduction
+    {
+        get
+        {
+            return _orangeScurvyReduction;
+        }
+    }
+    public float PassiveScurvyGain
+    {
+        get
+        {
+            return _passiveScurvyGain;
         }
     }
     public float PlayerJumpVelocityBase
@@ -75,6 +116,13 @@ public class GameParameters : ScriptableObject
         get
         {
             return _playerMoveSpeedShip;
+        }
+    }
+    public float ScurvyMaxJumpVelocity
+    {
+        get
+        {
+            return _scurvyMaxJumpVelocity;
         }
     }
     public float ShipAppliedForceLow

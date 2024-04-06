@@ -12,7 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccb9af15d6798014badac63162209fb6, type: 3}
   m_Name: GameParameters
   m_EditorClassIdentifier: 
-  _playerJumpVelocityBase: 5
+  _playerJumpVelocityBase: 3
   _playerMoveSpeedLand: 3
   _playerMoveSpeedShip: 3
   _doubloonProjectileSpeed: 15
+  _shipAppliedForceLow: 2.5
+  _shipAppliedForceMed: 5
+  _shipAppliedForceHigh: 10
+  _scurvyMaxJumpVelocity: 12
+  _initialScurvyLevel: 90
+  _passiveScurvyGain: 1
+  _orangeScurvyReduction: 10

@@ -14,7 +14,9 @@ TagManager:
   - BasicProjectile
   - PowerProjectile
   - Projectile
-  - Friendly
+  - Gas
+  - Wall
+  - Goal
   layers:
   - Default
   - TransparentFX

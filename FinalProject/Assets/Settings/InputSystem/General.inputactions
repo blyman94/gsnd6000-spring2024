@@ -22,6 +22,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "MeleeLand",
+                    "type": "Button",
+                    "id": "db7ec164-e208-4911-8cf3-cbd44ce84c05",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -145,6 +154,17 @@
                     "action": "ShootLand",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5196f65f-b570-4719-a168-d871111f80d7",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MeleeLand",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -174,6 +194,15 @@
                     "name": "ShootShip",
                     "type": "Button",
                     "id": "c7ae993b-c62e-4db8-8f2b-ddd2c65305d7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MeleeShip",
+                    "type": "Button",
+                    "id": "7c64660d-367a-4186-ae3a-c6a43396f5e1",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -266,6 +295,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "ShootShip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e74f73f9-7deb-4107-bf96-9a1f5c9da6af",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MeleeShip",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

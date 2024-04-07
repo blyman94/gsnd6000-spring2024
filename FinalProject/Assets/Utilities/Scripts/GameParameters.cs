@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 /// <summary>
@@ -29,6 +30,30 @@ public class GameParameters : ScriptableObject
     [SerializeField]
     [Tooltip("How fast do doubloon projectile's move?")]
     private float _doubloonProjectileSpeed = 15.0f;
+
+    [SerializeField]
+    [Tooltip("How much damage does a doubloon projectile do to enemies?")]
+    private float _doubloonProjectileDamage = 1.0f;
+
+    [SerializeField]
+    [Tooltip("What is the minimum number of coins the player can lose " +
+        "when using a melee attack?")]
+    private int _minMeleeCoinsLost = 1;
+
+    [SerializeField]
+    [Tooltip("What is the maximum number of coins the player can lose " +
+        "when using a melee attack?")]
+    private int _maxMeleeCoinsLost = 5;
+
+    [SerializeField]
+    [Tooltip("How much damage does the player do with a melee " +
+        "attack when their bag is empty?")]
+    private float _meleeDamageMin = 1.0f;
+
+    [SerializeField]
+    [Tooltip("What how much damage does the player do with a melee " +
+        "attack per coin in their bag?")]
+    private float _perCoinMeleeDamageIncrease = 1.0f;
 
     [Header("Ship Movement")]
 
@@ -124,6 +149,13 @@ public class GameParameters : ScriptableObject
             return _coinsFromXMin;
         }
     }
+    public float DoubloonProjectileDamage
+    {
+        get
+        {
+            return _doubloonProjectileDamage;
+        }
+    }
     public float DoubloonProjectileSpeed
     {
         get
@@ -152,6 +184,27 @@ public class GameParameters : ScriptableObject
             return _initialShovelCount;
         }
     }
+    public int MaxMeleeCoinsLost
+    {
+        get
+        {
+            return _maxMeleeCoinsLost;
+        }
+    }
+    public int MinMeleeCoinsLost
+    {
+        get
+        {
+            return _minMeleeCoinsLost;
+        }
+    }
+    public float MeleeDamageMin
+    {
+        get
+        {
+            return _meleeDamageMin;
+        }
+    }
     public float OrangeScurvyReduction
     {
         get
@@ -171,6 +224,13 @@ public class GameParameters : ScriptableObject
         get
         {
             return _passiveScurvyGain;
+        }
+    }
+    public float PerCoinMeleeDamageIncrease
+    {
+        get
+        {
+            return _perCoinMeleeDamageIncrease;
         }
     }
     public int PerOrangeCost

@@ -20,6 +20,8 @@ MonoBehaviour:
   _shipAppliedForceMed: 5
   _shipAppliedForceHigh: 10
   _scurvyMaxJumpVelocity: 12
-  _initialScurvyLevel: 90
+  _initialScurvyLevel: 25
   _passiveScurvyGain: 1
   _orangeScurvyReduction: 10
+  _perOrangeCost: 1
+  _anchorCost: 1

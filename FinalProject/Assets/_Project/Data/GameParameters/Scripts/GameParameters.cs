@@ -66,9 +66,26 @@ public class GameParameters : ScriptableObject
     [Tooltip("What % Scurvy is removed by an orange?")]
     [Range(0.0f, 100.0f)]
     private float _orangeScurvyReduction = 10.0f;
+
+    [Header("Economy")]
+
+    [SerializeField]
+    [Tooltip("How many coins does one Orange cost?")]
+    private int _perOrangeCost = 1;
+
+    [SerializeField]
+    [Tooltip("How many coins does it cost to use the Anchor?")]
+    private int _anchorCost = 1;
     #endregion
 
     #region Getters
+    public int AnchorCost
+    {
+        get
+        {
+            return _anchorCost;
+        }
+    }
     public float DoubloonProjectileSpeed
     {
         get
@@ -95,6 +112,13 @@ public class GameParameters : ScriptableObject
         get
         {
             return _passiveScurvyGain;
+        }
+    }
+    public int PerOrangeCost
+    {
+        get
+        {
+            return _perOrangeCost;
         }
     }
     public float PlayerJumpVelocityBase

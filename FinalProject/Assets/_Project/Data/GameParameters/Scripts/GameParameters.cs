@@ -49,6 +49,10 @@ public class GameParameters : ScriptableObject
 
     [Header("Health & Scurvy")]
     [SerializeField]
+    [Tooltip("How many oranges does each tree have?")]
+    private int _orangesPerTree = 3;
+
+    [SerializeField]
     [Tooltip("What is the player's initial jump velocity at max Scurvy?")]
     private float _scurvyMaxJumpVelocity = 12.0f;
 
@@ -76,6 +80,18 @@ public class GameParameters : ScriptableObject
     [SerializeField]
     [Tooltip("How many coins does it cost to use the Anchor?")]
     private int _anchorCost = 1;
+
+    [SerializeField]
+    [Tooltip("How many coins does it cost to use an XMarksTheSpot?")]
+    private int _xCost = 1;
+
+    [SerializeField]
+    [Tooltip("What is the minimum number of coins a player can get from XMarksTheSpot?")]
+    private int _coinsFromXMin = 3;
+
+    [SerializeField]
+    [Tooltip("What is the maximum number of coins a player can get from XMarksTheSpot?")]
+    private int _coinsFromXMax = 10;
     #endregion
 
     #region Getters
@@ -84,6 +100,20 @@ public class GameParameters : ScriptableObject
         get
         {
             return _anchorCost;
+        }
+    }
+    public int CoinsFromXMax
+    {
+        get
+        {
+            return _coinsFromXMax;
+        }
+    }
+    public int CoinsFromXMin
+    {
+        get
+        {
+            return _coinsFromXMin;
         }
     }
     public float DoubloonProjectileSpeed
@@ -105,6 +135,13 @@ public class GameParameters : ScriptableObject
         get
         {
             return _orangeScurvyReduction;
+        }
+    }
+    public int OrangesPerTree
+    {
+        get
+        {
+            return _orangesPerTree;
         }
     }
     public float PassiveScurvyGain
@@ -168,6 +205,13 @@ public class GameParameters : ScriptableObject
         get
         {
             return _shipAppliedForceHigh;
+        }
+    }
+    public int XCost
+    {
+        get
+        {
+            return _xCost;
         }
     }
     #endregion

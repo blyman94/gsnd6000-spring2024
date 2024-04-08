@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6296812257696316388}
   - component: {fileID: 2419870069368215852}
   - component: {fileID: 1542329346127256821}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OrangePickup
   m_TagString: Orange
   m_Icon: {fileID: 0}
@@ -234,7 +234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4560380186886193062}
   - component: {fileID: 2140306973394831919}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OrangeColliderPhysical
   m_TagString: Untagged
   m_Icon: {fileID: 0}

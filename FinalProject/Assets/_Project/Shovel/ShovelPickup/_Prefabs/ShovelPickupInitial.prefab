@@ -60,6 +60,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShovelPickupInitial
       objectReference: {fileID: 0}
+    - target: {fileID: 7583428317447497873, guid: 4a4976cc5704d6648bb46f0c5592ce26, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801481922019728717, guid: 4a4976cc5704d6648bb46f0c5592ce26, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

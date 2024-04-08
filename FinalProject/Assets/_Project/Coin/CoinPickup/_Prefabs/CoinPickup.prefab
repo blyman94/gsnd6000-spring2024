@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1962213337893191599}
   - component: {fileID: 8680228038034541926}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CoinPickupPhysicalCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,7 +196,7 @@ GameObject:
   - component: {fileID: 2623554030308786009}
   - component: {fileID: 484633325887283599}
   - component: {fileID: 5960858101771466341}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CoinPickup
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -287,7 +287,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 6796318198425641419}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 8eed6b16c36684d4797e521f4d59fd16, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

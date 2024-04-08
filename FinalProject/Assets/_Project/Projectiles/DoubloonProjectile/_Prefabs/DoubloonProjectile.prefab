@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5768568075442774860}
   - component: {fileID: 7373428090809203767}
   - component: {fileID: 4322324896219682856}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DoubloonProjectile
   m_TagString: Projectile
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ Rigidbody2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 72
+    m_Bits: 200
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0

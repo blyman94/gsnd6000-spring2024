@@ -55,6 +55,38 @@ public class GameParameters : ScriptableObject
         "attack per coin in their bag?")]
     private float _perCoinMeleeDamageIncrease = 1.0f;
 
+    [SerializeField]
+    [Tooltip("What is the distance (radius) from the skeleton enemy " +
+        "where the player will be detected when chasing?")]
+    private float _skeletonEnemyChaseDetectionRadius = 3f;
+
+    [SerializeField]
+    [Tooltip("What is the distance (radius) from the skeleton enemy " +
+        "where the player will be detected when patrolling?")]
+    private float _skeletonEnemyPatrolDetectionRadius = 1.5f;
+
+    [SerializeField]
+    [Tooltip("How much health does the skeleton enemy start with?")]
+    private float _skeletonEnemyMaxHealth = 10.0f;
+
+    [SerializeField]
+    [Tooltip("How fast does a skeleton enemy move when patrolling?")]
+    private float _skeletonEnemyPatrolSpeed = 0.15f;
+
+    [SerializeField]
+    [Tooltip("How fast does a skeleton enemy move when chasing the player?")]
+    private float _skeletonEnemyChaseSpeed = 1.0f;
+
+    [SerializeField]
+    [Tooltip("How close (radius) does the skeleton have to be to the " + 
+        "player to give them scurvy?")]
+    private float _skeletonScurvyRadius = 0.5f;
+
+    [SerializeField]
+    [Tooltip("How much scurvy does a skeleton enemy add per second to " +
+        "the player if they are close by?")]
+    private float _skeletonScurvyPerSecond = 1.0f;
+
     [Header("Ship Movement")]
 
     [SerializeField]
@@ -259,6 +291,56 @@ public class GameParameters : ScriptableObject
         get
         {
             return _playerMoveSpeedShip;
+        }
+    }
+    public float SkeletonEnemyChaseDetectionRadius
+    {
+        get
+        {
+            return _skeletonEnemyChaseDetectionRadius;
+        }
+    }
+    public float SkeletonEnemyChaseSpeed
+    {
+        get
+        {
+            return _skeletonEnemyChaseSpeed;
+        }
+    }
+    
+    public float SkeletonEnemyPatrolDetectionRadius
+    {
+        get
+        {
+            return _skeletonEnemyPatrolDetectionRadius;
+        }
+    }
+    public float SkeletonEnemyPatrolSpeed
+    {
+        get
+        {
+            return _skeletonEnemyPatrolSpeed;
+        }
+    }
+    public float SkeletonEnemyMaxHealth
+    {
+        get
+        {
+            return _skeletonEnemyMaxHealth;
+        }
+    }
+    public float SkeletonScurvyRadius
+    {
+        get
+        {
+            return _skeletonScurvyRadius;
+        }
+    }
+    public float SkeletonScurvyPerSecond
+    {
+        get
+        {
+            return _skeletonScurvyPerSecond;
         }
     }
     public float ScurvyMaxJumpVelocity

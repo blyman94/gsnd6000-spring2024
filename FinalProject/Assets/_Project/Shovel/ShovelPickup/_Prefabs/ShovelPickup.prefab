@@ -236,7 +236,7 @@ GameObject:
   - component: {fileID: 2591839311271292567}
   - component: {fileID: 8742596318430691866}
   - component: {fileID: 3461323456786277812}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ShovelPickup
   m_TagString: Shovel
   m_Icon: {fileID: 0}
@@ -377,7 +377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8919794277501020138}
   - component: {fileID: 4025648563402203593}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ShovelPickupPhysicalCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}

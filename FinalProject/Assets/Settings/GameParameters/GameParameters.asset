@@ -24,7 +24,7 @@ MonoBehaviour:
   _skeletonEnemyChaseDetectionRadius: 3
   _skeletonEnemyPatrolDetectionRadius: 1.5
   _skeletonEnemyMaxHealth: 10
-  _skeletonEnemyPatrolSpeed: 0.001
+  _skeletonEnemyPatrolSpeed: 0.15
   _skeletonEnemyChaseSpeed: 1
   _skeletonScurvyRadius: 0.5
   _skeletonScurvyPerSecond: 1

@@ -9,6 +9,7 @@ TagManager:
   - Coin
   - Shovel
   - Enemy
+  - EnemyShip
   layers:
   - Default
   - TransparentFX

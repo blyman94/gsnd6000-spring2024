@@ -50,8 +50,8 @@ MonoBehaviour:
   ShipShovelDropCountMin: 1
   ShipShovelDropCountMax: 2
   EnemyShovelDropCountMin: 0
-  EnemyShovelDropCountMax: 1
-  ShipCoinDropCountMin: 10
+  EnemyShovelDropCountMax: 0
+  ShipCoinDropCountMin: 20
   ShipCoinDropCountMax: 30
-  EnemyCoinDropCountMin: 1
-  EnemyCoinDropCountMax: 5
+  EnemyCoinDropCountMin: 3
+  EnemyCoinDropCountMax: 8

@@ -1,5 +1,4 @@
 using Unity.VisualScripting;
-using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 
 /// <summary>
@@ -181,7 +180,7 @@ public class GameParameters : ScriptableObject
 
     [SerializeField]
     [Tooltip("At what speed do heatseeking pickups move at?")]
-    public float HeatSeekSpeed = 3.0f;
+    public float HeatSeekSpeed = 10.0f;
 
     [SerializeField]
     [Tooltip("What is the minimum shovel drop count of a ship?")]
@@ -197,11 +196,11 @@ public class GameParameters : ScriptableObject
 
     [SerializeField]
     [Tooltip("What is the maximum shovel drop count of an enemy?")]
-    public int EnemyShovelDropCountMax = 1;
+    public int EnemyShovelDropCountMax = 0;
 
     [SerializeField]
     [Tooltip("What is the minimum coin drop count of a ship?")]
-    public int ShipCoinDropCountMin = 10;
+    public int ShipCoinDropCountMin = 20;
 
     [SerializeField]
     [Tooltip("What is the maximum coin drop count of a ship?")]
@@ -209,11 +208,11 @@ public class GameParameters : ScriptableObject
 
     [SerializeField]
     [Tooltip("What is the minimum coin drop count of an enemy?")]
-    public int EnemyCoinDropCountMin = 1;
+    public int EnemyCoinDropCountMin = 3;
 
     [SerializeField]
     [Tooltip("What is the maximum coin drop count of an enemy?")]
-    public int EnemyCoinDropCountMax = 5;
+    public int EnemyCoinDropCountMax = 8;
 
     #endregion Economy
 }

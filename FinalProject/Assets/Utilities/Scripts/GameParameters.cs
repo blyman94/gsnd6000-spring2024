@@ -1,4 +1,5 @@
 using Unity.VisualScripting;
+using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 
 /// <summary>
@@ -28,7 +29,7 @@ public class GameParameters : ScriptableObject
     [Header("Combat")]
 
     [SerializeField]
-    [Tooltip("How fast do doubloon projectile's move?")]
+    [Tooltip("How fast do doubloon projectiles move?")]
     private float _doubloonProjectileSpeed = 15.0f;
 
     [SerializeField]
@@ -78,7 +79,7 @@ public class GameParameters : ScriptableObject
     private float _skeletonEnemyChaseSpeed = 1.0f;
 
     [SerializeField]
-    [Tooltip("How close (radius) does the skeleton have to be to the " + 
+    [Tooltip("How close (radius) does the skeleton have to be to the " +
         "player to give them scurvy?")]
     private float _skeletonScurvyRadius = 0.5f;
 
@@ -86,6 +87,14 @@ public class GameParameters : ScriptableObject
     [Tooltip("How much scurvy does a skeleton enemy add per second to " +
         "the player if they are close by?")]
     private float _skeletonScurvyPerSecond = 1.0f;
+
+    [SerializeField]
+    [Tooltip("How much force does a cannon ball fire with?")]
+    private float _cannonBallForce = 15.0f;
+
+    [SerializeField]
+    [Tooltip("How many cannon balls are required to sink an enemy ship?")]
+    private int _cannonBallsToDefeatShip = 3;
 
     [Header("Ship Movement")]
 
@@ -157,6 +166,10 @@ public class GameParameters : ScriptableObject
     [SerializeField]
     [Tooltip("What is the maximum number of coins a player can get from XMarksTheSpot?")]
     private int _coinsFromXMax = 10;
+
+    [SerializeField]
+    [Tooltip("How many coins does it cost to fire a cannon ball?")]
+    private int _cannonBallCost = 3;
     #endregion
 
     #region Getters
@@ -165,6 +178,27 @@ public class GameParameters : ScriptableObject
         get
         {
             return _anchorCost;
+        }
+    }
+    public int CannonBallCost
+    {
+        get
+        {
+            return _cannonBallCost;
+        }
+    }
+    public float CannonBallForce
+    {
+        get
+        {
+            return _cannonBallForce;
+        }
+    }
+    public int CannonBallsToDefeatShip
+    {
+        get
+        {
+            return _cannonBallsToDefeatShip;
         }
     }
     public int CoinsFromXMax
@@ -307,7 +341,7 @@ public class GameParameters : ScriptableObject
             return _skeletonEnemyChaseSpeed;
         }
     }
-    
+
     public float SkeletonEnemyPatrolDetectionRadius
     {
         get

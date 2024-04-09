@@ -28,6 +28,8 @@ MonoBehaviour:
   _skeletonEnemyChaseSpeed: 1
   _skeletonScurvyRadius: 0.5
   _skeletonScurvyPerSecond: 1
+  _cannonBallForce: 20
+  _cannonBallsToDefeatShip: 3
   _shipAppliedForceLow: 2.5
   _shipAppliedForceMed: 5
   _shipAppliedForceHigh: 10
@@ -43,3 +45,4 @@ MonoBehaviour:
   _xCost: 1
   _coinsFromXMin: 3
   _coinsFromXMax: 10
+  _cannonBallCost: 3

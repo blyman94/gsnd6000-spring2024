@@ -11,6 +11,7 @@ TagManager:
   - Enemy
   - EnemyShip
   - CameraToggleTrigger
+  - CannonBall
   layers:
   - Default
   - TransparentFX

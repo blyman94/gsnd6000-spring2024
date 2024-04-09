@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: OrangePickup
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Orange
+      Pickup","summary":"+ Launches off a tree when spawned.","pan":{"x":176.1965,"y":-5.293667},"zoom":0.9,"elements":[{"coroutine":true,"defaultValues":{},"position":{"x":-445.0,"y":-193.0},"guid":"d87c9f99-4dfa-4b8a-93bb-61a005138e13","$version":"A","$type":"Unity.VisualScripting.Start","$id":"9"},{"chainable":false,"member":{"name":"velocity","parameterTypes":null,"targetType":"UnityEngine.Rigidbody2D","targetTypeName":"UnityEngine.Rigidbody2D","$version":"A"},"defaultValues":{"target":null,"input":{"x":-1.5,"y":3.0,"$type":"UnityEngine.Vector2"}},"position":{"x":-258.0,"y":-168.0},"guid":"c12e7efa-1797-4d84-9205-1435eb6e06f0","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"11"},{"chainable":false,"parameterNames":["type"],"member":{"name":"GetComponent","parameterTypes":["System.Type"],"targetType":"UnityEngine.Component","targetTypeName":"UnityEngine.Component","$version":"A"},"defaultValues":{"target":null,"%type":{"$content":"UnityEngine.Rigidbody2D","$type":"System.RuntimeType"}},"position":{"x":-88.0,"y":38.0},"guid":"e70aecbc-1c24-41f9-b707-9074f6194937","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"14"},{"defaultValues":{"seconds":{"$content":2.5,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":13.0,"y":-137.0},"guid":"0947571c-e450-4aa9-8ac6-e578cb2d49f4","$version":"A","$type":"Unity.VisualScripting.WaitForSecondsUnit","$id":"18"},{"chainable":false,"parameterNames":["obj"],"member":{"name":"Destroy","parameterTypes":["UnityEngine.Object"],"targetType":"UnityEngine.Component","targetTypeName":"UnityEngine.Component","$version":"A"},"defaultValues":{"%obj":null},"position":{"x":312.0,"y":-78.0},"guid":"2d32a971-5c75-4471-a64b-16f8d4d534db","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"20"},{"sourceUnit":{"$ref":"18"},"sourceKey":"exit","destinationUnit":{"$ref":"20"},"destinationKey":"enter","guid":"5351e834-fe3b-430c-8a8b-a598e858550b","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"assigned","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"f1b833d7-f927-40a3-be02-de6978762104","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"1f8cfcb5-29fd-4f63-b001-28aa7890cd43","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"result","destinationUnit":{"$ref":"20"},"destinationKey":"%obj","guid":"b99e7470-bb17-4291-a80b-30f8b65666d7","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

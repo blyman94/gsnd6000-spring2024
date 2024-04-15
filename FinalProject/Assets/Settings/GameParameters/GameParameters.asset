@@ -17,7 +17,7 @@ MonoBehaviour:
   PlayerMoveSpeedShip: 3
   DoubloonProjectileSpeed: 15
   DoubloonProjectileDamage: 1
-  AttackCooldown: 1
+  AttackCooldown: 1.5
   MeleeDamageMin: 1
   PerCoinMeleeDamageIncrease: 1
   SkeletonEnemyChaseDetectionRadius: 3

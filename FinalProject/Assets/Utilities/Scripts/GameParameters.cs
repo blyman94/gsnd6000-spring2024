@@ -38,6 +38,10 @@ public class GameParameters : ScriptableObject
     public float DoubloonProjectileDamage = 1.0f;
 
     [SerializeField]
+    [Tooltip("How long must the player wait between attacks?")]
+    public float AttackCooldown = 1.0f;
+
+    [SerializeField]
     [Tooltip("How much damage does the player do with a melee " +
         "attack when their bag is empty?")]
     public float MeleeDamageMin = 1.0f;

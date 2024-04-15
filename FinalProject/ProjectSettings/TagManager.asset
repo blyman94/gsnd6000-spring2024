@@ -49,3 +49,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: GameworldUI
+    uniqueID: 1995273885
+    locked: 0

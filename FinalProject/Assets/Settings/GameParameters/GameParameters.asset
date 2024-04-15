@@ -17,7 +17,7 @@ MonoBehaviour:
   PlayerMoveSpeedShip: 3
   DoubloonProjectileSpeed: 15
   DoubloonProjectileDamage: 1
-  AttackCooldown: 1.5
+  AttackCooldown: 1
   MeleeDamageMin: 1
   PerCoinMeleeDamageIncrease: 1
   SkeletonEnemyChaseDetectionRadius: 3
@@ -32,9 +32,9 @@ MonoBehaviour:
   ShipAppliedForceLow: 2.5
   ShipAppliedForceMed: 5
   ShipAppliedForceHigh: 10
-  OrangesPerTree: 3
+  OrangesPerTree: 5
   ScurvyMaxJumpVelocity: 12
-  InitialScurvyLevel: 15
+  InitialScurvyLevel: 25
   PassiveScurvyGain: 1
   OrangeScurvyReduction: 10
   InitialShovelCount: 0

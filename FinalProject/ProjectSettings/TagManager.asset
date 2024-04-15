@@ -25,7 +25,7 @@ TagManager:
   - Health
   - Detector
   - EnemyShip
-  - 
+  - PlayerShip
   - 
   - 
   - 
@@ -46,6 +46,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2988831569
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

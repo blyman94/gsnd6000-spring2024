@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccb9af15d6798014badac63162209fb6, type: 3}
   m_Name: GameParameters
   m_EditorClassIdentifier: 
-  PlayerJumpVelocityBase: 3
+  PlayerJumpVelocityBase: 5
   PlayerMoveSpeedLand: 3
   PlayerMoveSpeedShip: 3
   DoubloonProjectileSpeed: 15
@@ -34,7 +34,7 @@ MonoBehaviour:
   ShipAppliedForceHigh: 10
   OrangesPerTree: 3
   ScurvyMaxJumpVelocity: 12
-  InitialScurvyLevel: 25
+  InitialScurvyLevel: 15
   PassiveScurvyGain: 1
   OrangeScurvyReduction: 10
   InitialShovelCount: 0

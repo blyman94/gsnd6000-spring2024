@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb9af15d6798014badac63162209fb6, type: 3}
+  m_Name: BalancedParameters
+  m_EditorClassIdentifier: 
+  PlayerJumpVelocityBase: 5
+  PlayerMoveSpeedLand: 3.5
+  PlayerMoveSpeedShip: 3
+  DoubloonProjectileSpeed: 12.5
+  DoubloonProjectileDamage: 2
+  AttackCooldown: 1.5
+  MeleeDamageMin: 3
+  PerCoinMeleeDamageIncrease: 1
+  SkeletonEnemyChaseDetectionRadius: 4
+  SkeletonEnemyPatrolDetectionRadius: 2
+  SkeletonEnemyMaxHealth: 10
+  SkeletonEnemyPatrolSpeed: 0.15
+  SkeletonEnemyChaseSpeed: 1
+  SkeletonScurvyRadius: 0.5
+  SkeletonScurvyPerSecond: 1
+  CannonBallForce: 15
+  CannonBallsToDefeatShip: 3
+  ShipAppliedForceLow: 2.5
+  ShipAppliedForceMed: 5
+  ShipAppliedForceHigh: 10
+  OrangesPerTree: 3
+  ScurvyMaxJumpVelocity: 12
+  InitialScurvyLevel: 25
+  PassiveScurvyGain: 1
+  OrangeScurvyReduction: 10
+  InitialShovelCount: 0
+  InitialCoinCount: 7
+  PerOrangeCost: 1
+  AnchorCost: 1
+  XCost: 1
+  CoinsFromXMin: 5
+  CoinsFromXMax: 10
+  CannonBallCost: 3
+  MinMeleeCoinsLost: 1
+  MaxMeleeCoinsLost: 5
+  HeatSeekSpeed: 10
+  ShipShovelDropCountMin: 1
+  ShipShovelDropCountMax: 2
+  EnemyShovelDropCountMin: 0
+  EnemyShovelDropCountMax: 0
+  ShipCoinDropCountMin: 20
+  ShipCoinDropCountMax: 30
+  EnemyCoinDropCountMin: 3
+  EnemyCoinDropCountMax: 8

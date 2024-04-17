@@ -37,7 +37,7 @@ MonoBehaviour:
   InitialScurvyLevel: 25
   PassiveScurvyGain: 1
   OrangeScurvyReduction: 10
-  InitialShovelCount: 1
+  InitialShovelCount: 0
   InitialCoinCount: 16
   PerOrangeCost: 1
   AnchorCost: 1

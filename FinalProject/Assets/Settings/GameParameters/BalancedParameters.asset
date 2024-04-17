@@ -38,12 +38,12 @@ MonoBehaviour:
   PassiveScurvyGain: 1
   OrangeScurvyReduction: 10
   InitialShovelCount: 0
-  InitialCoinCount: 7
+  InitialCoinCount: 16
   PerOrangeCost: 1
   AnchorCost: 1
   XCost: 1
   CoinsFromXMin: 5
-  CoinsFromXMax: 10
+  CoinsFromXMax: 5
   CannonBallCost: 3
   MinMeleeCoinsLost: 1
   MaxMeleeCoinsLost: 5
@@ -53,6 +53,6 @@ MonoBehaviour:
   EnemyShovelDropCountMin: 0
   EnemyShovelDropCountMax: 0
   ShipCoinDropCountMin: 20
-  ShipCoinDropCountMax: 30
-  EnemyCoinDropCountMin: 3
-  EnemyCoinDropCountMax: 8
+  ShipCoinDropCountMax: 20
+  EnemyCoinDropCountMin: 1
+  EnemyCoinDropCountMax: 3

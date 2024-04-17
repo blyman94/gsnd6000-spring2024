@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccb9af15d6798014badac63162209fb6, type: 3}
   m_Name: GameParameters
   m_EditorClassIdentifier: 
-  PlayerJumpVelocityBase: 5
-  PlayerMoveSpeedLand: 3.5
+  PlayerJumpVelocityBase: 3
+  PlayerMoveSpeedLand: 3
   PlayerMoveSpeedShip: 3
   DoubloonProjectileSpeed: 15
   DoubloonProjectileDamage: 1
-  AttackCooldown: 1.5
+  AttackCooldown: 1
   MeleeDamageMin: 1
   PerCoinMeleeDamageIncrease: 1
   SkeletonEnemyChaseDetectionRadius: 3
@@ -32,7 +32,7 @@ MonoBehaviour:
   ShipAppliedForceLow: 2.5
   ShipAppliedForceMed: 5
   ShipAppliedForceHigh: 10
-  OrangesPerTree: 5
+  OrangesPerTree: 3
   ScurvyMaxJumpVelocity: 12
   InitialScurvyLevel: 25
   PassiveScurvyGain: 1
